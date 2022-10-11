@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url(images/bbbbb.jpg);
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: goldenrod;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  font-size: 30px;
+  color: rgb(33, 84, 33);
+  background-color: goldenrod;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h2{
+    font-size: 25px;
+    color: goldenrod;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgba(30, 90, 30 , .7) ;
+    border-radius: 20px;
+    position: fixed;
+    top:10px;
+    font-weight: bold;
+    left: 30px;
+    right: 30px;
+} */
+
+.wohoo {
+  display: none;
+}
+
+.yaa {
+  display: block;
+}
+
+#start-btn {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#new-btn {
+  margin-bottom: 30px;
+}
+
+#message-el {
+  font-size: 30px;
+  color: rgb(249, 215, 130);
+}
+
+#player-el {
+  margin-top: 40px;
+  font-size: 25px;
+}
